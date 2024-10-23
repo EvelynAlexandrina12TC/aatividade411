@@ -1,0 +1,163 @@
+:root {
+   --cinza: #dad7cd;
+   --branquinho: #fffcf2 ; 
+   --vermelho-vinho: #9e2a2b ;
+   --vermelinho: #9b2226;
+   --preto:#0a0908 ;    
+}
+
+ * {
+        font-family: "Kavivanar", cursive;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+      }
+         
+  }
+
+  body {
+    margin: 50px;
+  }
+
+  .img_redonda {
+    height: 100px;
+    width: 7%;
+    padding: 20px;
+    border-radius: 100%;
+    margin-right: 2rem;
+    margin-right: auto;
+    display:block;
+  }
+
+   
+  .cabecario {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .cabecario {
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 1rem; /* Espaço entre as imagens */
+    margin: 2rem 0; /* Margem superior e inferior */  
+}   
+
+  header {
+    background-color: var(--vermelho-vinho);
+    border-radius: 10px;
+    margin-top: auto;
+  }
+
+.h1_titulo {
+    border-radius: 30px;
+    font-size: 70px;
+    font-family: "Jolly Lodger", system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50rem;
+}
+
+.album {
+    color: var(--preto); /* Cor do texto normal */
+    font-size: 30px;
+    margin: 1rem 0; /* Margem em cima e embaixo */
+    padding: 4px; /* Espaço interno */
+    background-color: var(--cinza);
+    display: flex; /* Use flex para layout se necessário */
+    flex-direction: column; /* Alinha itens em coluna */
+    transition: color 0.3s; /* Transição suave */
+    margin-right: 70rem;
+    border-radius: 6%;
+}
+
+.album:hover {
+   background-color: var(--vermelinho) ;
+   color: var(--branquinho);
+}
+
+.primeira {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: row-reverse; 
+    background-color: var(--vermelho-vinho); 
+    padding: 0.5rem 0.25rem; 
+    border-radius: 8px; 
+    margin: 0rem 2rem 2rem; 
+} 
+
+.album1 {
+  width: 16rem; 
+  height: auto;
+  border-radius: 5%;
+  margin: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.texto1 {
+    font-size: 16px; 
+    line-height: 1.5;
+    max-width: 500px; 
+    margin-left: 2rem; 
+}
+
+.segunda-terceira {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: var(--vermelho-vinho); 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin: 2rem; 
+}
+
+.segunda-img,
+.terceira-img {
+    width: 16rem; 
+    height: auto; 
+    border-radius: 5%;
+    margin: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.texto-dois {
+  font-size: 16px; 
+  line-height: 1.5; 
+  max-width: 500px; 
+  margin-inline: 2rem; 
+}
+
+.segundo-texto { 
+  color: var(--branquinho);
+  background-color: var(--vermelinho);
+}
+
+
+.terceira {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: var(--vermelho-vinho); 
+    padding: 1rem; 
+    border-radius: 8px; 
+    margin: 2rem; 
+}
+
+.foto img {
+  display: block; 
+  margin: 10px 0; 
+}
+
+.foto1,
+.foto2,
+.foto3 {
+  width: 16rem;
+  height: 14rem;
+  border-radius: 8%;
+}
+
+body {
+  background-color: var(--cinza);
+}
+
+
+
